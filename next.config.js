@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
+	DB_URL: process.env.DB_URL,
     DB_USER: process.env.DB_USER,
     DB_HOST: process.env.DB_HOST,
     DB_DATABASE: process.env.DB_DATABASE,
